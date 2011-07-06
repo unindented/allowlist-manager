@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Whitelist</title>
+
+  <link rel="stylesheet" href="styles/reset.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+
+  <script src="scripts/query.min.js"></script>
+
+  <script src="scripts/i18n.min.js"></script>
+
+  <script src="scripts/utils.min.js"></script>
+  <script src="scripts/config.min.js"></script>
+  <script src="scripts/warning.min.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+
+    <form>
+      <!-- href param -->
+      <input id="href" name="href" type="hidden" />
+      <!-- hostname param -->
+      <input id="hostname" name="hostname" type="hidden" />
+      <!-- pathname param -->
+      <input id="pathname" name="pathname" type="hidden" />
+
+      <div id="dialog">
+        <div>
+          <div>
+            <h1 data-i18n="msg_warning_title"></h1>
+            <a id="url" class="highlight"></a>
+            <p data-i18n="msg_warning_desc"></p>
+          </div>
+        </div>
+      </div>
+
+    </form>
+
+  </div>
+</body>
+</html>
+

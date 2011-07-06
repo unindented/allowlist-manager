@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Whitelist</title>
+
+  <link rel="stylesheet" href="styles/reset.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+
+  <script src="scripts/i18n.min.js"></script>
+
+  <script>
+    function openOptions() {
+      chrome.tabs.create({ 'url': 'options.html' });
+      window.close();
+    }
+  </script>
+</head>
+
+<body>
+  <div id="popup">
+    <a href="#" data-i18n="msg_popup_options" onclick="openOptions()"></a>
+  </div>
+</body>
+</html>
+

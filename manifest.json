@@ -1,0 +1,40 @@
+{
+  "default_locale": "en",
+
+  "name":           "__MSG_ext_name__",
+  "description":    "__MSG_ext_description__",
+  "version":        "1.5",
+
+  "icons": {
+    "16":  "icon_16.png",
+    "48":  "icon_48.png",
+    "128": "icon_128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icon_32.png",
+    "popup":        "popup.html"
+  },
+
+  "background_page": "background.html",
+  "options_page":    "options.html",
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "scripts/content.min.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ]
+}
+
