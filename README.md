@@ -1,4 +1,4 @@
-# Whitelist for Google Chrome ![Still Maintained?](http://stillmaintained.com/unindented/whitelist-chrome.png)
+# Whitelist for Google Chrome
 
 Automatically blocks all pages from any website that is not in your list of allowed websites.
 
