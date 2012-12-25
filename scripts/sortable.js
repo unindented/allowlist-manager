@@ -1,0 +1,1 @@
+(function(){$(function(){$(".sortable").sortable({containment:"body",cursor:"move",handle:".handle",opacity:"0.75",placeholder:"highlight",revert:true});return $(".sortable").disableSelection()})}).call(this);
