@@ -159,7 +159,7 @@ input[type='submit']:disabled {
 
 #options input[type='password'],
 #options input[type='text'] {
-  width: 20.425em;
+  width: 20em;
 }
 #options input[type='button'],
 #options input[type='reset'],
