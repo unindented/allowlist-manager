@@ -9,17 +9,13 @@
 
   <script src="scripts/i18n.js"></script>
 
-  <script>
-    function openOptions() {
-      chrome.tabs.create({ 'url': 'options.html' });
-      window.close();
-    }
-  </script>
+  <script src="scripts/jquery.js"></script>
+  <script src="scripts/popup.js"></script>
 </head>
 
 <body>
   <div id="popup">
-    <a href="#" data-i18n="msg_popup_options" onclick="openOptions()"></a>
+    <a href="#" data-i18n="msg_popup_options"></a>
   </div>
 </body>
 </html>
