@@ -1,0 +1,17 @@
+.app-blocked {
+  text-align: center;
+}
+
+.app-blocked__info > .material-icons {
+  display: block;
+  margin: 12px auto;
+  color: $icon-color;
+
+  @include typo-display-4($usePreferred: false);
+}
+
+.app-blocked__href {
+  word-break: break-all;
+  border: 1px solid $border-color;
+  border-radius: 2px;
+}

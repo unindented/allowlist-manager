@@ -1,0 +1,64 @@
+{
+  "locale": {
+    "message": "es"
+  },
+  "ext_name": {
+    "message": "Whitelist Manager"
+  },
+  "ext_description": {
+    "message": "Bloquea automáticamente las páginas de todo sitio que no esté en tu lista de sitios permitidos."
+  },
+
+  "msg_header_about": {
+    "message": "Información..."
+  },
+
+  "msg_blocked_page_label": {
+    "message": "Whitelist Manager ha impedido la carga de la página:"
+  },
+  "msg_blocked_instructions_label": {
+    "message": "Si deseas ver páginas de $HOSTNAME$, por favor añádelo a tu lista de sitios permitidos.",
+    "placeholders": {
+      "hostname": {
+        "content": "$1"
+      }
+    }
+  },
+
+  "msg_about_dialog_author_label": {
+    "message": "Desarrollado con cariño por $AUTHOR$.",
+    "placeholders": {
+      "author": {
+        "content": "$1"
+      }
+    }
+  },
+  "msg_about_dialog_donate_label": {
+    "message": "Si esta extensión te ha sido de ayuda, ¿considerarías donar 5€ para apoyar mi trabajo en software libre y de código abierto?"
+  },
+  "msg_about_dialog_donate_url": {
+    "message": "https://paypal.me/unindented/5eur"
+  },
+  "msg_about_dialog_close_button": {
+    "message": "Cerrar"
+  },
+  "msg_about_dialog_donate_button": {
+    "message": "Donar 5€"
+  },
+
+  "msg_options_instructions_label": {
+    "message": "Para usar esta extensión, activa las opciones de bloqueo que desees debajo, y edita tu lista de sitios seguros. Esta extensión bloqueará automáticamente el acceso a todo sitio que no esté en esa lista."
+  },
+  "msg_options_block_pages_label": {
+    "message": "Bloquear páginas de sitios que no estén en mi lista"
+  },
+  "msg_options_block_others_label": {
+    "message": "Bloquear otros recursos (imágenes, scripts, etc.) de sitios que no estén en mi lista"
+  },
+  "msg_options_whitelist_label": {
+    "message": "Lista de sitios permitidos"
+  },
+  "msg_options_analytics_label": {
+    "message": "Enviar estadísticas de uso e informes sobre fallos anónimamente"
+  }
+}

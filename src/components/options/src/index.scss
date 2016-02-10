@@ -1,0 +1,37 @@
+.app-options__option {
+  display: inline-flex;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.app-options__option-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  border: 0;
+}
+
+.app-options__label {
+  display: block;
+  margin-right: .6em;
+  margin-left: .6em;
+}
+
+.app-options__textarea {
+  display: block;
+  width: 100%;
+  height: 300px;
+  box-sizing: border-box;
+  padding: 7px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-size: inherit;
+  color: inherit;
+  resize: none;
+  border: 1px solid $border-color;
+  border-radius: 2px;
+}

@@ -1,0 +1,64 @@
+{
+  "locale": {
+    "message": "en"
+  },
+  "ext_name": {
+    "message": "Whitelist Manager"
+  },
+  "ext_description": {
+    "message": "Automatically blocks all pages from any website that is not in your list of allowed websites."
+  },
+
+  "msg_header_about": {
+    "message": "About..."
+  },
+
+  "msg_blocked_page_label": {
+    "message": "Whitelist Manager has prevented the following page from loading:"
+  },
+  "msg_blocked_instructions_label": {
+    "message": "If you wish to view pages from $HOSTNAME$, please add it to your list of allowed websites.",
+    "placeholders": {
+      "hostname": {
+        "content": "$1"
+      }
+    }
+  },
+
+  "msg_about_dialog_author_label": {
+    "message": "Developed with love by $AUTHOR$.",
+    "placeholders": {
+      "author": {
+        "content": "$1"
+      }
+    }
+  },
+  "msg_about_dialog_donate_label": {
+    "message": "If this extension has been useful to you, would you consider a gift of $$5 to support my work on free and open source software?"
+  },
+  "msg_about_dialog_donate_url": {
+    "message": "https://paypal.me/unindented/5usd"
+  },
+  "msg_about_dialog_close_button": {
+    "message": "Close"
+  },
+  "msg_about_dialog_donate_button": {
+    "message": "Donate $$5"
+  },
+
+  "msg_options_instructions_label": {
+    "message": "In order to use this extension, activate the blocking options you need below, and edit your list of safe websites. This extension will automatically block access to any website that is not in that list."
+  },
+  "msg_options_block_pages_label": {
+    "message": "Block pages from websites not in my list"
+  },
+  "msg_options_block_others_label": {
+    "message": "Block other resources (images, scripts, etc.) from websites not in my list"
+  },
+  "msg_options_whitelist_label": {
+    "message": "List of allowed websites"
+  },
+  "msg_options_analytics_label": {
+    "message": "Send anonymized usage statistics and crash reports"
+  }
+}
