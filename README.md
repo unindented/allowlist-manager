@@ -1,3 +1,5 @@
+![Whitelist Manager](src/assets/promo_1400.png)
+
 # Whitelist Manager [![Build Status](https://img.shields.io/travis/unindented/whitelist-manager.svg)](http://travis-ci.org/unindented/whitelist-manager) [![Dependency Status](https://img.shields.io/gemnasium/unindented/whitelist-manager.svg)](https://gemnasium.com/unindented/whitelist-manager) [![Coverage Status](https://img.shields.io/coveralls/unindented/whitelist-manager.svg)](https://coveralls.io/r/unindented/whitelist-manager)
 
 Automatically blocks all pages from any website that is not in your list of allowed websites.
