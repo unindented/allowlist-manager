@@ -154,6 +154,7 @@ module.exports = function (options) {
         }
       })
     ].concat(optimize ? [
+      new webpack.optimize.OccurenceOrderPlugin(),
       new webpack.optimize.UglifyJsPlugin({
         compressor: {
           screw_ie8: true,
