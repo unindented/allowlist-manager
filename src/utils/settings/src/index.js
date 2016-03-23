@@ -11,8 +11,6 @@ export function defaultSettings () {
 }
 
 export function loadOldSettings (callback) {
-  const settings = defaultSettings()
-
   try {
     const blockPages = localStorage.getItem('filter_enabled')
     const whitelist = localStorage.getItem('filter_entries')
@@ -25,10 +23,10 @@ export function loadOldSettings (callback) {
         whitelist: JSON.parse(whitelist)
       })
     } else {
-      callback(settings)
+      callback()
     }
   } catch (e) {
-    callback(settings)
+    callback()
   }
 }
 
