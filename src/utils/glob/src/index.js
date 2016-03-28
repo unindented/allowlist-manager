@@ -3,7 +3,7 @@ import convert from './convert'
 
 const validDomain = /^.+\.[^.]+$/
 const simpleDomain = /^[^.*]+\.[^.]+$/
-const noop = constant(true)
+const noop = constant(false)
 
 export function compile (glob) {
   // If not a valid glob, ignore it.

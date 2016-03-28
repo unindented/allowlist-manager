@@ -6,18 +6,18 @@ describe('Glob', function () {
     describe('with an empty string', function () {
       const expr = ' '
 
-      it('always matches', function () {
+      it('never matches', function () {
         const url = parse('http://wikipedia.org/')
-        expect(compile(expr)(url)).toBe(true)
+        expect(compile(expr)(url)).toBe(false)
       })
     })
 
     describe('with an invalid domain', function () {
       const expr = 'foobar'
 
-      it('always matches', function () {
+      it('never matches', function () {
         const url = parse('http://wikipedia.org/')
-        expect(compile(expr)(url)).toBe(true)
+        expect(compile(expr)(url)).toBe(false)
       })
     })
 
