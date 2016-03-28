@@ -1,7 +1,7 @@
 import {parse} from 'url'
 import {compile} from 'utils/glob'
 import {onBeforeRequest, updateTab} from 'utils/platform'
-import {loadSettings, loadOldSettings, saveSettings, onChangeSettings} from 'utils/settings'
+import {loadSettings, onChangeSettings} from 'utils/settings'
 import {trackException} from 'utils/analytics'
 
 import _template from './background.html'
@@ -44,13 +44,7 @@ const init = () => {
   onChangeSettings(reload)
 
   // Load for the first time.
-  loadOldSettings((oldSettings) => {
-    if (oldSettings) {
-      saveSettings(oldSettings)
-    } else {
-      reload()
-    }
-  })
+  reload()
 }
 
 const error = (e) => {
