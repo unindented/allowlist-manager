@@ -92,7 +92,7 @@
     "karma-coverage": "^1.0.0",
     "karma-firefox-launcher": "^1.0.0",
     "karma-ie-launcher": "^0.2.0",
-    "karma-jasmine": "^0.3.7",
+    "karma-jasmine": "^1.0.0",
     "karma-opera-launcher": "^0.3.0",
     "karma-phantomjs-launcher": "^1.0.0",
     "karma-safari-launcher": "^1.0.0",
