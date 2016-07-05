@@ -1,4 +1,4 @@
-import {Component, PropTypes, cloneElement} from 'react'
+import React, {Component, PropTypes, cloneElement} from 'react'
 import {Header, Icon, Navigation, Content, Card, CardText} from 'react-mdl'
 import {autobind} from 'core-decorators'
 import AboutDialog from 'components/about-dialog'

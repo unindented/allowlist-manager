@@ -1,3 +1,4 @@
+import React from 'react'
 import Blocked from 'components/blocked'
 import {render} from 'utils/test'
 

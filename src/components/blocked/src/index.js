@@ -1,4 +1,4 @@
-import {Component, PropTypes} from 'react'
+import React, {Component, PropTypes} from 'react'
 import {Icon} from 'react-mdl'
 import {t} from 'utils/i18n'
 
