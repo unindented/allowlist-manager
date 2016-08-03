@@ -54,43 +54,43 @@ export default class Options extends Component {
     const {blockPages, blockOthers, whitelist, trackingPermitted} = this.state
 
     return (
-      <div className='app-options'>
+      <div className="app-options">
         <p>
           <i>{t('msg_options_instructions_label')}</i>
         </p>
-        <label className='app-options__option'>
-          <input type='checkbox' id='app-options-block-pages' className='app-options__checkbox'
+        <label className="app-options__option">
+          <input type="checkbox" id="app-options-block-pages" className="app-options__checkbox"
             checked={blockPages}
             onChange={this.handleChangeBlockPages}
           />
-          <span className='app-options__label'>
+          <span className="app-options__label">
             {t('msg_options_block_pages_label')}
           </span>
         </label>
-        <label className='app-options__option'>
-          <input type='checkbox' id='app-options-block-others' className='app-options__checkbox'
+        <label className="app-options__option">
+          <input type="checkbox" id="app-options-block-others" className="app-options__checkbox"
             checked={blockOthers}
             onChange={this.handleChangeBlockOthers}
           />
-          <span className='app-options__label'>
+          <span className="app-options__label">
             {t('msg_options_block_others_label')}
           </span>
         </label>
-        <label className='app-options__option-hidden' htmlFor='app-options-whitelist'>
-          <span className='app-options__label'>
+        <label className="app-options__option-hidden" htmlFor="app-options-whitelist">
+          <span className="app-options__label">
             {t('msg_options_whitelist_label')}
           </span>
         </label>
-        <textarea id='app-options-whitelist' className='app-options__textarea'
+        <textarea id="app-options-whitelist" className="app-options__textarea"
           value={whitelist.join('\n')}
           onChange={this.handleChangeWhitelist}
         />
-        <label className='app-options__option'>
-          <input type='checkbox' id='app-options-analytics' className='app-options__checkbox'
+        <label className="app-options__option">
+          <input type="checkbox" id="app-options-analytics" className="app-options__checkbox"
             checked={trackingPermitted}
             onChange={this.handleChangeAnalytics}
           />
-          <span className='app-options__label'>
+          <span className="app-options__label">
             {t('msg_options_analytics_label')}
           </span>
         </label>
