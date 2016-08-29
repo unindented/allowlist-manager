@@ -14,15 +14,15 @@ export default class Blocked extends Component {
     const {href, hostname} = this.props
 
     return (
-      <div className="app-blocked">
-        <p className="app-blocked__info">
-          <Icon name="lock" />
+      <div className='app-blocked'>
+        <p className='app-blocked__info'>
+          <Icon name='lock' />
           {t('msg_blocked_page_label')}
         </p>
-        <p className="app-blocked__href">
+        <p className='app-blocked__href'>
           {href}
         </p>
-        <p className="app-blocked__instructions">
+        <p className='app-blocked__instructions'>
           {t('msg_blocked_instructions_label', hostname)}
         </p>
       </div>

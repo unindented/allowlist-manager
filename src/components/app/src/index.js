@@ -16,9 +16,9 @@ export default class App extends Component {
 
     return (
       <Router history={history}>
-        <Route path="/" component={Layout}>
-          <Route path="blocked.html" component={Blocked} />
-          <Route path="optionsalt.html" component={Options} />
+        <Route path='/' component={Layout}>
+          <Route path='blocked.html' component={Blocked} />
+          <Route path='optionsalt.html' component={Options} />
         </Route>
       </Router>
     )

@@ -49,17 +49,17 @@ export default class Layout extends Component {
 
     const title = (
       <span>
-        <Icon name="lock" />
+        <Icon name='lock' />
         {t('ext_name')}
       </span>
     )
 
     return (
-      <div className="app-layout">
-        <div className="app-layout__container">
+      <div className='app-layout'>
+        <div className='app-layout__container'>
           <Header title={title}>
             <Navigation>
-              <a href="#"
+              <a href='#'
                 onClick={this.handleAboutClick}
               >
                 {t('msg_header_about')}
