@@ -47,7 +47,7 @@
     "dialog-polyfill": "^0.4.3",
     "lodash": "^4.5.0",
     "material-design-icons": "^3.0.0",
-    "material-design-lite": "^1.1.1",
+    "material-design-lite": "^1.2.1",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
     "react-mdl": "^1.4.1",
