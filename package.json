@@ -2,7 +2,7 @@
   "name": "whitelist-manager",
   "productName": "Whitelist Manager",
   "description": "Browser extension that automatically blocks all pages from any website that is not in your list of allowed websites.",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "license": "GPL-3.0",
   "private": true,
   "author": {
