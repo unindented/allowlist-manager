@@ -2,7 +2,7 @@ import {parse} from 'url'
 import {compile} from 'utils/glob'
 import {onBeforeRequest, updateTab} from 'utils/platform'
 import {loadSettings, onChangeSettings} from 'utils/settings'
-import {trackException} from 'utils/analytics'
+import {trackView, trackException} from 'utils/analytics'
 
 import _template from './background.html'
 
@@ -45,6 +45,8 @@ const init = () => {
 
   // Load for the first time.
   reload()
+
+  trackView()
 }
 
 const error = (e) => {
