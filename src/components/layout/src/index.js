@@ -26,13 +26,6 @@ export default class Layout extends Component {
   }
 
   @autobind
-  handleAboutDonate (url) {
-    trackEvent('About', 'Donate', url)
-
-    this.setState({about: false})
-  }
-
-  @autobind
   handleAboutClose () {
     trackEvent('About', 'Close')
 
@@ -78,7 +71,6 @@ export default class Layout extends Component {
 
         <AboutDialog
           open={showAbout}
-          onDonate={this.handleAboutDonate}
           onClose={this.handleAboutClose}
         />
       </div>
